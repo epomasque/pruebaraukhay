@@ -1,0 +1,12 @@
+.slide-in {
+    animation: slide-in 3s forwards;
+    position: relative;
+    left: 10%; /* Inicia la imagen fuera de la pantalla a la derecha */
+    top: 40px; /* Ajusta este valor para mover la imagen hacia abajo */
+}
+
+@keyframes slide-in {
+    0% { left: 150%; }
+    100% { left: 0px; }
+}
+
